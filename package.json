@@ -110,7 +110,7 @@
         "extensions": [
           ".idr"
         ],
-        "configuration": "./configs/idris.json"
+        "configuration": "./language-configuration.json"
       },
       {
         "id": "lidris",
