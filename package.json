@@ -107,9 +107,30 @@
           "Idris",
           "idris"
         ],
-        "configuration": "./language-configuration.json",
         "extensions": [
           ".idr"
+        ],
+        "configuration": "./configs/idris.json"
+      },
+      {
+        "id": "lidris",
+        "aliases": [
+          "Literate Idris",
+          "literate idris"
+        ],
+        "extensions": [
+          ".lidr"
+        ],
+        "configuration": "./configs/idris.json"
+      },
+      {
+        "id": "ipkg",
+        "aliases": [
+          "iPKG",
+          "ipkg"
+        ],
+        "extensions": [
+          ".ipkg"
         ]
       }
     ],
@@ -117,7 +138,17 @@
       {
         "language": "idris",
         "scopeName": "source.idris",
-        "path": "./syntaxes/idris.tmLanguage.json"
+        "path": "./syntaxes/idris.json"
+      },
+      {
+        "language": "lidris",
+        "scopeName": "source.idris.literate",
+        "path": "./syntaxes/idris.literate.json"
+      },
+      {
+        "language": "ipkg",
+        "scopeName": "source.ipkg",
+        "path": "./syntaxes/ipkg.json"
       }
     ]
   },
